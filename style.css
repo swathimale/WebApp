@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Chakra+Petch&family=Dongle:wght@300&family=Josefin+Sans:wght@200&family=Luxurious+Roman&family=Mochiy+Pop+P+One&family=Roboto:ital,wght@0,300;1,100;1,300&family=Yanone+Kaffeesatz:wght@300&display=swap');
 * {
     margin: 0;
@@ -117,3 +118,75 @@ color: aquamarine;
     font-size:15px ;
 
 }
+#product1{
+    text-align: start;
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+#product1.pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border:1px solid #197e4d;
+    border-radius: 30%;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    margin: 15px 0;
+    transition: 0.02 ease;
+    position: absolute;
+}
+#product1.pro img{
+ width: 100%;
+ border-radius: 20px;
+
+}
+
+#product1.pro.des{
+    text-align: start;
+    padding: 10px 0;
+
+}
+#product1.pro span{
+    color: #80802a;
+    font-size: 12px;
+}
+#product1.pro.des h5{
+    padding-top: 7px;
+    color: #dafa23;
+    font-size: 14px;
+}
+#product1.pro.des i {
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+#product1.pro.des h4{
+    padding-top: 7px;
+    color: #dafa23;
+    font-size: 14px;
+    font-weight: 700;
+}
+#product1.pro.cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: white;
+    font-weight: 500;
+    color: aqua;
+    border: 1px solid #cce;
+    position: absolute;
+    bottom: 20px;
+    right: inherit;
+
+}
+#product{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
